@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sidebar.css">
+  <title>Document</title>
+</head>
+<body>
+  <img src="/icon/menu.png" id="menu">
+  <div class="sidebar">
+    <div class="login">
+      <a href="#">
+        <h2>MostafaDev</h2>
+      </a>
+      <img src="/icon/cancel.png" id="img">
+    </div>
+    <div class="login-nav">
+      <a href="#">
+        <img src="/icon/dashboard.png">
+        <h2>Dashboard</h2>
+      </a>
+    </div>
+    <div class="login-nav">
+      <a href="#">
+        <img src="/icon/shortcut-script-app.png">
+        <h2>Shortcuts</h2>
+      </a>
+    </div>
+    <div class="login-nav">
+      <a href="#">
+        <img src="/icon/search.png">
+        <h2>Overview</h2>
+      </a>
+    </div>
+    <div class="login-nav">
+      <a href="#">
+        <img src="/icon/red-carpet.png">
+        <h2>Events</h2>
+      </a>
+    </div>
+    <div class="login-nav">
+      <a href="#">
+        <img src="/icon/information.png">
+        <h2>About</h2>
+      </a>
+    </div>
+    <div class="login-nav">
+      <a href="#">
+        <img src="/icon/customer-support.png">
+        <h2>Services</h2>
+      </a>
+    </div>
+    <div class="login-nav">
+      <a href="#">
+        <img src="/icon/support.png">
+        <h2>Contact</h2>
+      </a>
+    </div>
+    <div class="login-nav">
+      <a href="#">
+        <img src="/icon/feedback.png">
+        <h2>Feedback</h2>
+      </a>
+    </div>
+    <div class="login-na">
+      <a href="#">
+        <img src="/icon/facebook.png">
+      </a>
+      <a href="#">
+        <img src="/icon/instagram.png">
+      </a>
+      <a href="#">
+        <img src="/icon/twitter.png">
+      </a>
+      <a href="#">
+        <img src="/icon/youtube.png">
+      </a> 
+    </div>
+  </div>
+  <script>
+    let img = document.querySelector('#img');
+    let  menu = document.querySelector('#menu');
+    let sidebar = document.querySelector('.sidebar');
+    img.onclick = function(){
+      sidebar.style.visibility = 'hidden';
+      menu.style.visibility = 'visible';
+    }
+    menu.onclick = function(){
+      sidebar.style.visibility = 'visible';
+      menu.style.visibility = 'hidden';
+      
+    }
+  </script>
+</body>
+</html>

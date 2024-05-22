@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+#menu{
+ position: absolute;
+ width: 30px; 
+ margin-left: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  visibility: hidden;
+}
+.sidebar{
+  /* background: red; */
+  width: 250px;
+  height: 100vh;
+  padding-top: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+.login{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: rgb(89, 88, 88);
+  border-radius: 10px;
+}
+.login:hover{
+  background: rgba(172, 170, 170, 0.484);
+  /* padding: 17px; */
+  box-shadow: 5px 5px 10px gray;
+  transition: .3s;
+}
+.login a{
+  text-decoration: none;
+  color: white;
+}
+.login  img:hover{
+  width: 30px;
+  height: 30px;
+}
+
+.login img{
+  width: 20px;
+  height: 20px;
+}
+.login-nav a{
+  background: rgb(153, 151, 151);
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+.login-nav img{
+width: 20px;
+height: 25px;
+}
+
+.login-na a img{
+ width: 25px;
+ padding: 10px;
+ margin-left: 10px;
+ margin-top: 15px;
+ /* background: red; */
+
+}
+.login-na a img:hover{
+  width: 35px;
+  transition: .3s;
+}
+.login-nav a:hover{
+  background: rgba(172, 170, 170, 0.484);
+  box-shadow: 5px 5px 5px gray;
+  padding: 12px;
+  transition: .3s;
+}
